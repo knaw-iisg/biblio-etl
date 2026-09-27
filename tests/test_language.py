@@ -39,6 +39,14 @@ def test_malformed_code_with_embedded_punctuation_is_rejected():
     assert len(g) == 0
 
 
+def test_malformed_code_with_accented_letter_is_rejected():
+    """Regression test: real data separately hit 'ìnd' (an accented
+    'i' -- some encoding mangling of 'ind', presumably). str.isalpha()
+    alone accepts accented Unicode letters, which BCP47 doesn't (ASCII
+    only), so this crashed a later full-harvest run the same way."""
+    assert language_code_from_008(_text_008("ìnd")) is None
+
+
 def test_process_adds_in_language_and_returns_bcp47_tag():
     g = Graph()
     lang_tag = process(ITEM, _text_008("dut"), g)

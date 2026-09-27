@@ -52,13 +52,17 @@ def language_code_from_008(text_008: str) -> str | None:
     """Extract the MARC language code from control field 008 (characters
     35-38, 0-indexed). Returns ``None`` when the field is too short, the
     slot contains a space (meaning "no language given"), or the slot isn't
-    3 letters -- confirmed necessary against real data: a ~920,000-record-in
-    full harvest hit an 008 field whose language slot was "NL-" (3 chars,
-    no space, but not a real language code), which crashed downstream by
-    reaching rdflib's BCP47 literal-tag validation as an invalid tag.
+    3 plain ASCII letters -- confirmed necessary against real data twice:
+    an 008 field with language slot "NL-" (3 chars, no space, not a real
+    code), and separately "ìnd" (an accented "i" -- some encoding
+    mangling of "ind", presumably) -- str.isalpha() alone accepts accented
+    Unicode letters, which are not valid in a BCP47 primary language
+    subtag (ASCII only per RFC 5646), so that check alone wasn't enough.
+    Both reached rdflib's BCP47 literal-tag validation as an invalid tag,
+    which raises rather than being skipped.
     """
     lang = text_008[35:38]
-    if len(lang) != 3 or not lang.isalpha():
+    if len(lang) != 3 or not lang.isascii() or not lang.isalpha():
         return None
     return lang
 

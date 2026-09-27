@@ -77,6 +77,25 @@ def mint_id(local_id: str) -> str:
     return quote(local_id, safe="")
 
 
+def lang_literal(text: str, lang: str | None) -> Literal:
+    """``Literal(text, lang=lang)`` if ``lang`` is a valid BCP47 tag, else
+    a plain untagged literal. ``language.language_code_from_008`` already
+    validates before returning a tag, but this is a second, independent
+    line of defense at the actual point of failure: two different
+    malformed-008 patterns each took down a several-hundred-thousand-
+    record-in full harvest by reaching rdflib's BCP47 validation as an
+    invalid tag (which raises rather than being skipped) before that
+    validation existed. An untagged literal is always a safe fallback --
+    never worth crashing a multi-hour run over one bad record's language
+    code."""
+    if lang:
+        try:
+            return Literal(text, lang=lang)
+        except ValueError:
+            pass
+    return Literal(text)
+
+
 def try_literal(text: str | None, datatypes: list) -> Literal | None:
     """Port of RATT's ``tryLiteral``: try each datatype in order (by
     lexical-form pattern, e.g. ``YYYY-MM-DD`` for ``xsd:date``) and return

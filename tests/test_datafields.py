@@ -75,6 +75,19 @@ def test_f260_publication():
     assert "1989" in dates
 
 
+def test_f245_falls_back_to_untagged_on_invalid_lang():
+    """Defense-in-depth regression test: even if an invalid BCP47 tag ever
+    reaches a datafield handler (language.py validates before returning
+    one, but this is the independent second line of defense that actually
+    stopped a full-harvest crash), the handler must fall back to an
+    untagged literal instead of raising."""
+    g = Graph()
+    datafield = {"marc:subfield": {"@code": "a", "$text": "Some title"}}
+    f245.process(ITEM, datafield, g, lang="not a real tag")
+    names = list(g.objects(ITEM, SDO.name))
+    assert names == [Literal("Some title")]
+
+
 def test_f902_handle_url():
     g = Graph()
     datafield = {"marc:subfield": {"@code": "a", "$text": "10622\\615E1D29-8D79-4B1D-AF85-56814F99937B"}}

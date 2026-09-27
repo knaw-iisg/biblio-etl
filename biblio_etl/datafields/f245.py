@@ -11,9 +11,9 @@ Picking which subfields make up the title collapses to two cases:
 
 from __future__ import annotations
 
-from rdflib import Graph, Literal, URIRef
+from rdflib import Graph, URIRef
 
-from ..context import as_array, get_code, get_text
+from ..context import as_array, get_code, get_text, lang_literal
 from ..prefixes import SDO
 
 
@@ -24,7 +24,7 @@ def process(item: URIRef, datafield: dict, g: Graph, lang: str | None = None) ->
 
     def add(name: str | None) -> None:
         if name:
-            g.add((item, SDO.name, Literal(name, lang=lang) if lang else Literal(name)))
+            g.add((item, SDO.name, lang_literal(name, lang)))
 
     if not codes:
         return
