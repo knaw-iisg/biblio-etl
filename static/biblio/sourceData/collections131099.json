@@ -1,0 +1,312 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:131099",
+    "datestamp": "2022-03-08T12:20:38.295Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "nondig",
+      "4": "nondig.books_and_brochures"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "01457nam a22002297a 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 131099,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20200504152408,
+          "@tag": "005"
+        },
+        {
+          "$text": "199502suuuuuuuufr                  fre d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb10020945",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "035"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)863587745",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "035"
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@tag": "040",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Verret, Michel.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)340860",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "1",
+          "@ind2": "",
+          "@tag": "100"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "L'ouvrier français /",
+              "@code": "a"
+            },
+            {
+              "$text": "Michel Verret.",
+              "@code": "c"
+            }
+          ],
+          "@ind2": "2",
+          "@ind1": "1",
+          "@tag": "245"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Paris :",
+              "@code": "a"
+            },
+            {
+              "$text": "Armand Colin,",
+              "@code": "b"
+            },
+            {
+              "$text": "1979.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "260",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "vols.",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "300"
+        },
+        {
+          "marc:subfield": {
+            "$text": "[1]: L'espace-ouvrier / avec la collab. de Joseph Creusen. - 1979. - 231 p",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "0",
+          "@tag": "505"
+        },
+        {
+          "marc:subfield": {
+            "$text": "[2]: Le travail ouvrier / avec la collab. de Paul Nugues. - 1982. - 238 p. - ISBN 2-200-31182-6",
+            "@code": "a"
+          },
+          "@ind1": "0",
+          "@ind2": "",
+          "@tag": "505"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "F 970",
+              "@code": "a"
+            },
+            {
+              "$text": "France; social history; after 1789; social conditions and relations; social groups; workers; general",
+              "@code": "b"
+            },
+            {
+              "$text": "Frankrijk; sociale geschiedenis; na 1789; sociale toestanden en verhoudingen; verhandelingen; bijzondere onderwerpen; sociale groepen; arbeiders; algemeen.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "690",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "F 993",
+              "@code": "a"
+            },
+            {
+              "$text": "France; social history; after 1789; social conditions and relations; housing",
+              "@code": "b"
+            },
+            {
+              "$text": "Frankrijk; sociale geschiedenis; na 1789; sociale toestanden en verhoudingen; verhandelingen; bijzondere onderwerpen; volkshuisvesting.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "690",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "F 3001",
+              "@code": "a"
+            },
+            {
+              "$text": "France; social history; after 1789; social policy, social law, social security; housing, rents policy; monographs",
+              "@code": "b"
+            },
+            {
+              "$text": "Frankrijk; sociale geschiedenis; na 1789; sociale politiek en sociale zorg; sociale politiek en sociaal recht en openbare gezondheidszorg; volkshuisvesting en huurpolitiek; verhandelingen.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "690",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Creusen, Joseph.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)65901",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "1",
+          "@ind2": "",
+          "@tag": "700"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Nugues, Paul.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)246386",
+              "@code": "0"
+            }
+          ],
+          "@tag": "710",
+          "@ind1": "2",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Collection U. série sociologie.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)62208",
+              "@code": "0"
+            }
+          ],
+          "@tag": "830",
+          "@ind1": "",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/B7A1E0BA-F394-4A48-B0CD-FDB0219F165E",
+            "@code": "a"
+          },
+          "@tag": "902",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "222/213 A-",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N10020737",
+              "@code": "p"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "4",
+          "@tag": "852"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 131099,
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": 131099,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "901"
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  }
+}

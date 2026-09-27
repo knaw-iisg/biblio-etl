@@ -1,0 +1,336 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:1482763",
+    "datestamp": "2022-03-08T13:18:41.67Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "VIS-EuropeanSocialMovements",
+      "4": "nondig",
+      "5": "nondig.visual_documents"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "00620nkm a22     7i 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 1482763,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20131107130226,
+          "@tag": "005"
+        },
+        {
+          "$text": "131105s1990    fr                  fre d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)943982738",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "035"
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AMISG",
+            "@code": "a"
+          },
+          "@tag": "040",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Un congrès pour agir, défendre les retraités, syndicaliser.",
+              "@code": "a"
+            },
+            {
+              "$text": "Visual document.",
+              "@code": "k"
+            }
+          ],
+          "@ind2": "3",
+          "@ind1": "1",
+          "@tag": "245"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1990,
+              "@code": "c"
+            },
+            {
+              "$text": "(S.l. :",
+              "@code": "e"
+            },
+            {
+              "$text": "s.n.)",
+              "@code": "f"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "260"
+        },
+        {
+          "marc:subfield": {
+            "$text": "64x45 cm.",
+            "@code": "g"
+          },
+          "@tag": "300",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "Copyright unknown.",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "540"
+        },
+        {
+          "marc:subfield": {
+            "$text": "pictoright",
+            "@code": "m"
+          },
+          "@tag": "542",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Congrès de l'union fédérale des retraités de la Filpac.",
+              "@code": "a"
+            },
+            {
+              "$text": "(2 :",
+              "@code": "n"
+            },
+            {
+              "$text": "1990)",
+              "@code": "d"
+            }
+          ],
+          "@ind2": "4",
+          "@ind1": "2",
+          "@tag": "611"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1990-1990.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)570149",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "648"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Old-age insurance.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)181128",
+              "@code": "0"
+            }
+          ],
+          "@tag": "650",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Paper industry",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)184427",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "650"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "France.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)127741",
+              "@code": "0"
+            }
+          ],
+          "@tag": "651",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Poster.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)3248",
+              "@code": "0"
+            }
+          ],
+          "@tag": "655",
+          "@ind1": "",
+          "@ind2": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Fédération CGT des travailleurs des industries du livre, du papier et de la communication (FILPAC)",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)2009982",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "2",
+          "@ind2": "",
+          "@tag": "710"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Syndicat des Correcteurs",
+              "@code": "a"
+            },
+            {
+              "$text": "collector.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)2009977",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "2",
+          "@tag": "710"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/B5E95AC7-084C-4FE8-B28E-E7EF8A8B5DFF",
+            "@code": "a"
+          },
+          "@tag": "902",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "BG D85/898",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N30051003206791",
+              "@code": "p"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "4",
+          "@tag": "852"
+        },
+        {
+          "marc:subfield": {
+            "$text": "https://hdl.handle.net/10622/N30051003206791",
+            "@code": "u"
+          },
+          "@ind1": "4",
+          "@ind2": "0",
+          "@tag": "856"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1482763,
+              "@code": "a"
+            },
+            {
+              "@code": "b"
+            },
+            {
+              "$text": 1482763,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            },
+            {
+              "$text": "System Local",
+              "@code": "s"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "901"
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  },
+  "_identifier": [
+    "oai",
+    "socialhistoryservices.org",
+    "1482763"
+  ],
+  "_item": {
+    "termType": "NamedNode",
+    "value": "https://iisg.amsterdam/id/item/1482763"
+  }
+}

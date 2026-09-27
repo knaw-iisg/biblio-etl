@@ -1,0 +1,391 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:1075345",
+    "datestamp": "2022-03-08T12:58:31.041Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "VIS-NonEuropeanMovement",
+      "4": "nondig",
+      "5": "nondig.visual_documents",
+      "6": "IISG",
+      "7": "IISG.LandsbergerStefanR"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "00689nkm a22002177a 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 1075345,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20030530145759,
+          "@tag": "005"
+        },
+        {
+          "$text": "200305suuuuuuuucc                  chi d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb10906152",
+            "@code": "a"
+          },
+          "@tag": "035",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)943633672",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "035",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "040",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Qiu Ruimin,",
+              "@code": "a"
+            },
+            {
+              "$text": "designer.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)237016",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "100",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Xiang Xiuli.",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "242",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Xiang Xiuli.",
+              "@code": "a"
+            },
+            {
+              "$text": "Visual document.",
+              "@code": "k"
+            }
+          ],
+          "@ind1": "1",
+          "@ind2": "0",
+          "@tag": "245"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1992, May",
+              "@code": "c"
+            },
+            {
+              "$text": "(Shanghai :",
+              "@code": "e"
+            },
+            {
+              "$text": "Shanghai jiaoyu chubanshe,",
+              "@code": "f"
+            },
+            {
+              "$text": "1992)",
+              "@code": "g"
+            }
+          ],
+          "@tag": "260",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "78x53 cm.",
+            "@code": "g"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "300"
+        },
+        {
+          "marc:subfield": {
+            "$text": "'Xiang Xiuli' ISBN 7-5320-2368-0. (2). Series title: educational posters of heroic persons.",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "500",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "pictoright",
+            "@code": "m"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "542"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Xiang Xiuli.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)330209",
+              "@code": "0"
+            }
+          ],
+          "@tag": "600",
+          "@ind2": "4",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1992-1992.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)552290",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "648"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Portrait.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)306035",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "650"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "China.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)81989",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "651"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Poster.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)3248",
+              "@code": "0"
+            }
+          ],
+          "@tag": "655",
+          "@ind2": "4",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Landsberger, S.",
+              "@code": "a"
+            },
+            {
+              "$text": "BG E15/410",
+              "@code": "b"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "694",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "EAS",
+              "@code": "a"
+            },
+            {
+              "$text": "China",
+              "@code": "e"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "695",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Landsberger, Stefan R.",
+              "@code": "a"
+            },
+            {
+              "$text": "collector.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)178682",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "1",
+          "@ind2": "",
+          "@tag": "700"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Yingxiong renwu jiaoyu tupian ;",
+              "@code": "a"
+            },
+            {
+              "$text": "6.",
+              "@code": "v"
+            },
+            {
+              "$text": "(NL-AMISG)466782",
+              "@code": "0"
+            }
+          ],
+          "@tag": "830",
+          "@ind2": "0",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/96BD5D87-E03F-4A6A-809B-0DFE7E5DEEBF",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "902",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "BG E15/410",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N30051001508511",
+              "@code": "p"
+            }
+          ],
+          "@ind1": "4",
+          "@ind2": "",
+          "@tag": "852"
+        },
+        {
+          "marc:subfield": {
+            "$text": "https://hdl.handle.net/10622/N30051001508511",
+            "@code": "u"
+          },
+          "@ind1": "4",
+          "@ind2": "0",
+          "@tag": "856"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1075345,
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": 1075345,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "901",
+          "@ind2": ""
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  },
+  "_identifier": [
+    "oai",
+    "socialhistoryservices.org",
+    "1075345"
+  ],
+  "_item": {
+    "termType": "NamedNode",
+    "value": "https://iisg.amsterdam/id/item/1075345"
+  }
+}

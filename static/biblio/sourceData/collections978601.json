@@ -1,0 +1,260 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:978601",
+    "datestamp": "2022-03-08T12:53:42.203Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "VIS-NonEuropeanMovement",
+      "4": "nondig",
+      "5": "nondig.visual_documents"
+    },
+    "fromCache": false
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "00498nkm a22001697a 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 978601,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 19951107104355,
+          "@tag": "005"
+        },
+        {
+          "$text": "199511suuuuuuuune                  dut d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb10717858",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "035"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)943788087",
+            "@code": "a"
+          },
+          "@tag": "035",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@tag": "040",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Jordaan, L.J.,",
+              "@code": "a"
+            },
+            {
+              "$text": "draughtsman.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)163134",
+              "@code": "0"
+            }
+          ],
+          "@tag": "100",
+          "@ind2": "",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Hij heeft er geen last van!",
+              "@code": "a"
+            },
+            {
+              "$text": "Visual document.",
+              "@code": "k"
+            }
+          ],
+          "@ind1": "1",
+          "@ind2": "0",
+          "@tag": "245"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1918, 12 januari",
+              "@code": "c"
+            },
+            {
+              "$text": "Amsterdam :",
+              "@code": "e"
+            },
+            {
+              "$text": "De Notenkraker.",
+              "@code": "f"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "260"
+        },
+        {
+          "marc:subfield": {
+            "$text": "35x25 cm.",
+            "@code": "g"
+          },
+          "@tag": "300",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "pictoright",
+            "@code": "m"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "542"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1918-1918.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)359369",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "4",
+          "@ind1": "",
+          "@tag": "648"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "War and peace.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)177089",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "650"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Print.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)262665",
+              "@code": "0"
+            }
+          ],
+          "@tag": "655",
+          "@ind1": "",
+          "@ind2": "4"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/89E1895A-4AAE-4C86-A7E5-FD2D19112F3F",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "902"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "BG C6/697",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N30051000846235",
+              "@code": "p"
+            }
+          ],
+          "@tag": "852",
+          "@ind2": "",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": {
+            "$text": "https://hdl.handle.net/10622/N30051000846235",
+            "@code": "u"
+          },
+          "@ind1": "4",
+          "@ind2": "0",
+          "@tag": "856"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 978601,
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": 978601,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "901"
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:1520855",
+    "datestamp": "2022-03-08T13:20:35.032Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "nondig",
+      "4": "nondig.books_and_brochures"
+    }
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": { "$text": "04544cam a22004578i 4500" },
+      "marc:controlfield": [
+        { "$text": "1520855", "@tag": "001" },
+        { "$text": "NL-AMISG", "@tag": "003" },
+        { "$text": "20200122133641.0", "@tag": "005" },
+        { "$text": "181018s2019    xxu      b   s001 0 eng d", "@tag": "008" }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": { "$text": "2018040431", "@code": "a" },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "010"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "9780252042317", "@code": "a" },
+            { "$text": "(hardcover ;", "@code": "q" },
+            { "$text": "alk. paper)", "@code": "q" }
+          ],
+          "@tag": "020",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "9780252084119", "@code": "a" },
+            { "$text": "(pbk. ;", "@code": "q" },
+            { "$text": "alk. paper)", "@code": "q" }
+          ],
+          "@tag": "020",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "LBSOR/DLC", "@code": "a" },
+            { "$text": "eng", "@code": "b" },
+            { "$text": "rda", "@code": "e" },
+            { "$text": "LBSOR", "@code": "c" }
+          ],
+          "@tag": "040",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": { "$text": "pcc", "@code": "a" },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "042"
+        },
+        {
+          "marc:subfield": { "$text": "n-us---", "@code": "a" },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "043"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "305.48/896073009034", "@code": "a" },
+            { "$text": "23", "@code": "2" }
+          ],
+          "@tag": "082",
+          "@ind1": "0",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "To turn the whole world over :", "@code": "a" },
+            { "$text": "black women and internationalism /", "@code": "b" },
+            {
+              "$text": "edited by Keisha N. Blain and Tiffany M. Gill ; afterword by Michael O. West.",
+              "@code": "c"
+            }
+          ],
+          "@ind2": "0",
+          "@ind1": "0",
+          "@tag": "245"
+        },
+        {
+          "marc:subfield": { "$text": "1903", "@code": "a" },
+          "@tag": "263",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "Urbana, Illinois :", "@code": "a" },
+            { "$text": "University of Illinois Press,", "@code": "b" },
+            { "$text": "2019.", "@code": "c" }
+          ],
+          "@ind1": "",
+          "@ind2": "1",
+          "@tag": "264"
+        },
+        {
+          "marc:subfield": { "$text": "288 pages", "@code": "a" },
+          "@tag": "300",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "text", "@code": "a" },
+            { "$text": "rdacontent", "@code": "2" }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "336"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "unmediated", "@code": "a" },
+            { "$text": "rdamedia", "@code": "2" }
+          ],
+          "@tag": "337",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "volume", "@code": "a" },
+            { "$text": "rdacarrier", "@code": "2" }
+          ],
+          "@tag": "338",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": { "$text": "Black internationalism", "@code": "a" },
+          "@ind2": "",
+          "@ind1": "1",
+          "@tag": "490"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "\"To Turn the Whole World Over: Black Women's Internationalism in Historical Perspective represents the first scholarly attempt to assemble the most recent works on black women's internationalism during the late nineteenth and twentieth centuries. It highlights the range and complexity of black women's global engagements and centers their experiences as key historical actors in shaping internationalist movements and discourses from the 1870s to the 1970s. By analyzing the gendered contours of black internationalism, this collection of essays engages these two key questions: (a) how was black women's engagement in internationalism similar to and/or different from their male counterparts? (b) To what extent did black women merge internationalism with issues of women's rights and/or feminist concerns? Furthermore, the anthology calls for a re-conceptualization of black internationalism by asking how black women's lives and experiences alter the ways narratives of the global black freedom struggle are articulated. This anthology, then, does more than expand the paucity of scholarship on black women and internationalism. It is both an assessment of the field as well as an attempt to expand the contours of black internationalism theoretically, spatially, and temporally\"--",
+              "@code": "a"
+            },
+            { "$text": "Provided by publisher.", "@code": "c" }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "520"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Includes bibliographical references and index.",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "504"
+        },
+        {
+          "marc:subfield": {
+            "$text": "\"We are Negroes!\" : the Haitian Zambo, racial spectacle, and the performance of black women's internationalism, 1863-1877 / Brandon R. Byrd -- Feminist networks and diasporic practices : Eslanda Robeson's travels in Africa / Annette K. Joseph-Gabriel -- Black women's internationalism and the Chicago defender during the \"golden age of Haitian tourism\" / Kim Gallon -- \"Distant ties\" : May Ayim's transnational solidarity and activism / Tiffany N. Florvil -- Thyra Edwards's Spanish civil war scrapbook : Black women's internationalist writing / Anne Donlon -- \"They will all be my color\" : Nina Mae McKinney and black internationalism in 1930s Australia / Nicole Anae -- Stitched networks : Liberian quilters, transatlantic diplomacy, and community / Stephanie Beck Cohen -- \"Confraternity among all dark races\" : Mittie Maude Lena Gordon and the practice of black (inter)nationalism in Chicago, 1932-1942 / Keisha N. Blain -- \"United, we build a free world\" : the internationalism of Mary McLeod Bethune and the National Council of Negro Women / Grace V. Leslie -- \"What that meant to me\" : SNCC women, the 1964 Guinea trip, and black internationalism / Julia Erin Wood -- \"A common rallying call\" : Vicki Garvin in China and the making of US Third World solidarity politics / Dayo F. Gore -- Quilting the black-eyed pea / Michael O. West.",
+            "@code": "a"
+          },
+          "@tag": "505",
+          "@ind1": "0",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "African American women", "@code": "a" },
+            { "$text": "Politics and government", "@code": "x" },
+            { "$text": "19th century.", "@code": "y" }
+          ],
+          "@tag": "650",
+          "@ind2": "0",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "African American women", "@code": "a" },
+            { "$text": "Politics and government", "@code": "x" },
+            { "$text": "20th century.", "@code": "y" }
+          ],
+          "@tag": "650",
+          "@ind2": "0",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "African American women political activists",
+              "@code": "a"
+            },
+            { "$text": "History", "@code": "x" },
+            { "$text": "19th century.", "@code": "y" }
+          ],
+          "@tag": "650",
+          "@ind2": "0",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "African American women political activists",
+              "@code": "a"
+            },
+            { "$text": "History", "@code": "x" },
+            { "$text": "20th century.", "@code": "y" }
+          ],
+          "@tag": "650",
+          "@ind1": "",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "Internationalism", "@code": "a" },
+            { "$text": "History", "@code": "x" },
+            { "$text": "19th century.", "@code": "y" }
+          ],
+          "@ind1": "",
+          "@ind2": "0",
+          "@tag": "650"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "Internationalism", "@code": "a" },
+            { "$text": "History", "@code": "x" },
+            { "$text": "20th century.", "@code": "y" }
+          ],
+          "@tag": "650",
+          "@ind1": "",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "Blain, Keisha N.,", "@code": "a" },
+            { "$text": "1985-", "@code": "d" },
+            { "$text": "editor.", "@code": "e" },
+            { "$text": "(NL-AmISG)2035251", "@code": "0" }
+          ],
+          "@tag": "700",
+          "@ind2": "",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "Gill, Tiffany M.,", "@code": "a" },
+            { "$text": "editor.", "@code": "e" },
+            { "$text": "(NL-AmISG)2035252", "@code": "0" }
+          ],
+          "@tag": "700",
+          "@ind1": "1",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "West, Michael Oliver", "@code": "a" },
+            { "$text": "1958-", "@code": "d" },
+            { "$text": "writer of afterword.", "@code": "e" },
+            { "$text": "(NL-AMISG)558203", "@code": "0" }
+          ],
+          "@tag": "700",
+          "@ind2": "",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            { "$text": "Black internationalism.", "@code": "a" },
+            { "$text": "(NL-AmISG)2035250", "@code": "0" }
+          ],
+          "@ind1": "",
+          "@ind2": "0",
+          "@tag": "830"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/BBD7BB43-434A-4092-9B7E-7298FF5C568C",
+            "@code": "a"
+          },
+          "@tag": "902",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "IISG", "@code": "a" },
+            { "$text": "IISG", "@code": "b" },
+            { "$text": "IISG", "@code": "c" },
+            { "$text": "1984/4751", "@code": "j" },
+            { "$text": "Available", "@code": "n" },
+            { "$text": "5872498572984758245", "@code": "p" }
+          ],
+          "@tag": "852",
+          "@ind1": "4",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            { "$text": "1520855", "@code": "a" },
+            { "@code": "b" },
+            { "$text": "1520855", "@code": "c" },
+            { "$text": "biblio", "@code": "t" }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "901"
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  }
+}

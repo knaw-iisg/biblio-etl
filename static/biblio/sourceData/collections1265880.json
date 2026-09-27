@@ -1,0 +1,410 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:1265880",
+    "datestamp": "2022-03-08T13:07:42.84Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "VIS-EuropeanSocialMovements",
+      "4": "nondig",
+      "5": "nondig.visual_documents"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "00921nkm a22002417a 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 1265880,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20090513141818,
+          "@tag": "005"
+        },
+        {
+          "$text": "200905s1984uuuuxx                  und d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb11063620",
+            "@code": "a"
+          },
+          "@tag": "035",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)943955380",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "035",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "040",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Bergmar, Magnus,",
+              "@code": "a"
+            },
+            {
+              "$text": "photographer",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)552515",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "1",
+          "@tag": "100",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Amandla! Maatla! En film om sydafrikansk ungdom.",
+              "@code": "a"
+            },
+            {
+              "$text": "Visual document.",
+              "@code": "k"
+            }
+          ],
+          "@ind2": "0",
+          "@tag": "245",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1984,
+              "@code": "c"
+            },
+            {
+              "$text": "(Stockholm :",
+              "@code": "e"
+            },
+            {
+              "$text": "Tiba Tryck AB,",
+              "@code": "f"
+            },
+            {
+              "$text": "1984)",
+              "@code": "g"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "260"
+        },
+        {
+          "marc:subfield": {
+            "$text": "70x50 cm.",
+            "@code": "g"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "300"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Film on the South African youth and specifically the students at SOMAFCO in Tanzania by Magnus Bergmar and Kjell Söderlund, distributed by Film Centrum and supported by the Africa Groups a.o. organisations in Sweden.",
+            "@code": "a"
+          },
+          "@tag": "500",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "pictoright",
+            "@code": "m"
+          },
+          "@ind2": "",
+          "@tag": "542",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Campaign on South Africa.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)37211",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "2",
+          "@tag": "611",
+          "@ind2": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Amandla! Maatla!",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)552517",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "0",
+          "@tag": "630",
+          "@ind1": "0"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1984-1984.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)369875",
+              "@code": "0"
+            }
+          ],
+          "@tag": "648",
+          "@ind2": "4",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Youth.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)120067",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "650"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Sweden.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)290917",
+              "@code": "0"
+            }
+          ],
+          "@tag": "651",
+          "@ind2": "4",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Poster.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)3248",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "655"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "NIZA",
+              "@code": "a"
+            },
+            {
+              "$text": "BG E35/459",
+              "@code": "b"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "694",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "SCA",
+              "@code": "a"
+            },
+            {
+              "$text": "Sweden",
+              "@code": "e"
+            }
+          ],
+          "@tag": "695",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Södergren, Karin,",
+              "@code": "a"
+            },
+            {
+              "$text": "designer.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)552516",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "700",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Film Centrum (Stockholm)",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)552518",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "2",
+          "@tag": "710",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Nederlands Instituut voor Zuidelijk Afrika (Amsterdam),",
+              "@code": "a"
+            },
+            {
+              "$text": "collector.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)573972",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "710",
+          "@ind1": "2"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/F3471E39-1F5E-42C3-9EDC-8C45D37D98F2",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "902"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "BG E35/459",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N30051002703194",
+              "@code": "p"
+            }
+          ],
+          "@tag": "852",
+          "@ind2": "",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": {
+            "$text": "https://hdl.handle.net/10622/N30051002703194",
+            "@code": "u"
+          },
+          "@ind1": "4",
+          "@ind2": "0",
+          "@tag": "856"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1265880,
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": 1265880,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "901",
+          "@ind1": ""
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  },
+  "_identifier": [
+    "oai",
+    "socialhistoryservices.org",
+    "1265880"
+  ],
+  "_item": {
+    "termType": "NamedNode",
+    "value": "https://iisg.amsterdam/id/item/1265880"
+  }
+}

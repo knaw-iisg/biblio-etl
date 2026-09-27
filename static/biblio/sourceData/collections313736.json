@@ -1,0 +1,297 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:313736",
+    "datestamp": "2022-03-08T12:26:22.306Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "nondig",
+      "4": "nondig.books_and_brochures"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "00825nam a22001577a 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 313736,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20170503145015,
+          "@tag": "005"
+        },
+        {
+          "$text": "199502s1972uuuuxxy                 eng d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb10051704",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "035"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)122358617",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "035"
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "040"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Chastel, Arnaud.",
+              "@code": "a"
+            },
+            {
+              "$text": "trl",
+              "@code": "4"
+            },
+            {
+              "$text": "edt",
+              "@code": "4"
+            },
+            {
+              "$text": "(NL-AMISG)2024321",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "100"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "The beginning of an epoch :",
+              "@code": "a"
+            },
+            {
+              "$text": "containing contributions serving to rectify the opinion of the public concerning the revlution in underdeveloped countries, the explosion point of ideology in china, and two local wars. With an appendix on class-struggles in Algeria /",
+              "@code": "b"
+            },
+            {
+              "$text": "A.C. and T.V.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "245",
+          "@ind1": "1",
+          "@ind2": "4"
+        },
+        {
+          "marc:subfield": {
+            "$text": "The poor and the super poor.",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "246"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "[New York, N.Y. :",
+              "@code": "a"
+            },
+            {
+              "$text": "Create Situations,",
+              "@code": "b"
+            },
+            {
+              "$text": "circa 1972]",
+              "@code": "c"
+            }
+          ],
+          "@tag": "260",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "47 p.",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "300"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Handwritten note on title page says copy with wrong title on title-page and cover. The correct title is: The poor and the super poor.",
+            "@code": "a"
+          },
+          "@tag": "500",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "A.C. and T.V. = Arnaud Chastel and Tony Verlaan.",
+            "@code": "a"
+          },
+          "@tag": "500",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Int 1987",
+              "@code": "a"
+            },
+            {
+              "$text": "International organizations; anarchist, anarcho-syndicalist, related; Internationale situationniste",
+              "@code": "b"
+            },
+            {
+              "$text": "Internationale organisaties; politieke organisaties en nevengroeperingen; verwante groepen; Internationale situationniste.",
+              "@code": "c"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "690"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Bro An 1600",
+              "@code": "a"
+            },
+            {
+              "$text": "Anarchism; United States; anarchist movements; various movements",
+              "@code": "b"
+            },
+            {
+              "$text": "Anarchisme; Verenigde Staten; stromingen binnen het anarchisme; andere stromingen.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "690",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Verlaan, Tony.",
+              "@code": "a"
+            },
+            {
+              "$text": "trl",
+              "@code": "4"
+            },
+            {
+              "$text": "edt",
+              "@code": "4"
+            },
+            {
+              "$text": "(NL-AMISG)2024322",
+              "@code": "0"
+            }
+          ],
+          "@tag": "700",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/D469C002-45C8-4A09-A544-114483C7BD5E",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "902"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "Bro 273/5",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N10051203",
+              "@code": "p"
+            }
+          ],
+          "@tag": "852",
+          "@ind1": "4",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 313736,
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": 313736,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@tag": "901",
+          "@ind2": "",
+          "@ind1": ""
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  },
+  "_identifier": [
+    "oai",
+    "socialhistoryservices.org",
+    "313736"
+  ]
+}

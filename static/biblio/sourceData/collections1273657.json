@@ -1,0 +1,460 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:1273657",
+    "datestamp": "2022-03-08T13:08:07.659Z",
+    "setSpec": {
+      "0": "PM",
+      "1": "PM.biblio",
+      "2": "iish",
+      "3": "iish.evergreen",
+      "4": "iish.evergreen.biblio",
+      "5": "NIBG (Perscollectie)",
+      "6": "NIBG (Perscollectie).HahnAlbert"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "00797nkm a22002657a 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 1273657,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20090602135707,
+          "@tag": "005"
+        },
+        {
+          "$text": "200906suuuuuuuune                  dut d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)982963385",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "035",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb11064960",
+            "@code": "a"
+          },
+          "@tag": "035",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@tag": "040",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Hahn, Albert,",
+              "@code": "a"
+            },
+            {
+              "$text": "draughtsman.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)136339",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "1",
+          "@ind2": "",
+          "@tag": "100"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Drawing J.B Bomans",
+              "@code": "a"
+            },
+            {
+              "$text": "Visual document.",
+              "@code": "k"
+            }
+          ],
+          "@ind1": "1",
+          "@ind2": "0",
+          "@tag": "245"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1916, 2 december",
+              "@code": "c"
+            },
+            {
+              "$text": "(Amsterdam :",
+              "@code": "e"
+            },
+            {
+              "$text": "De Notenkraker,",
+              "@code": "f"
+            },
+            {
+              "$text": "1916)",
+              "@code": "g"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "260",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "32x25 cm.",
+            "@code": "g"
+          },
+          "@ind2": "",
+          "@tag": "300",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "Afbeelding 1: Bomans.",
+            "@code": "a"
+          },
+          "@tag": "500",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "restricted",
+            "@code": "m"
+          },
+          "@tag": "542",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Bomans, J.B.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)48181",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "4",
+          "@tag": "600",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Nieuwe Rotterdamse Courant.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)217078",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "0",
+          "@tag": "630",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Het Volk.",
+              "@code": "a"
+            },
+            {
+              "$text": "dagblad voor de arbeiderspartij.",
+              "@code": "x"
+            },
+            {
+              "$text": "(NL-AMISG)320540",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "4",
+          "@ind2": "0",
+          "@tag": "630"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1916-1916.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)359358",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "4",
+          "@tag": "648",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Caricature.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)306037",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "4",
+          "@tag": "650",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Education.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)370774",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "650"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Netherlands.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)569282",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "4",
+          "@tag": "651",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Tiel (Netherlands)",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)231632",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "651",
+          "@ind2": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Drawing.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)269282",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "655",
+          "@ind2": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Hahn, A.",
+              "@code": "a"
+            },
+            {
+              "$text": "BG PM1/91-44",
+              "@code": "b"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "694",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "NED",
+              "@code": "a"
+            },
+            {
+              "$text": "Nederland.",
+              "@code": "e"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "695"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "NED",
+              "@code": "a"
+            },
+            {
+              "$text": "Tiel",
+              "@code": "g"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "695"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Hahn, Albert,",
+              "@code": "a"
+            },
+            {
+              "$text": "collector.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)136339",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "1",
+          "@tag": "700",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Rijmkroniek van den Notenkraker ;",
+              "@code": "a"
+            },
+            {
+              "$text": "89,90,91,92.",
+              "@code": "v"
+            },
+            {
+              "$text": "(NL-AMISG)278380",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "0",
+          "@tag": "830",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/9A137C3A-C43B-42EC-8A0B-33D849E108EA",
+            "@code": "a"
+          },
+          "@tag": "902",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "NIBG (Perscollectie)",
+              "@code": "c"
+            },
+            {
+              "$text": "BG PM1/91-44",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N30051002710124",
+              "@code": "p"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "852",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": {
+            "$text": "https://hdl.handle.net/10622/N30051002710124",
+            "@code": "u"
+          },
+          "@ind1": "4",
+          "@ind2": "0",
+          "@tag": "856"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1273657,
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": 1273657,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "901",
+          "@ind1": ""
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  },
+  "_identifier": [
+    "oai",
+    "socialhistoryservices.org",
+    "1273657"
+  ],
+  "_item": {
+    "termType": "NamedNode",
+    "value": "https://iisg.amsterdam/id/item/1273657"
+  }
+}

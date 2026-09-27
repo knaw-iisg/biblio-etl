@@ -1,0 +1,533 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:1524119",
+    "datestamp": "2022-03-08T13:20:46.283Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "nondig",
+      "4": "nondig.books_and_brochures"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "01757cam a22004577i 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 1524119,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20191212121541,
+          "@tag": "005"
+        },
+        {
+          "$text": "190212s2018    po       b    010 0 por d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)on1086298000",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "035",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "C3L",
+              "@code": "a"
+            },
+            {
+              "$text": "eng",
+              "@code": "b"
+            },
+            {
+              "$text": "rda",
+              "@code": "e"
+            },
+            {
+              "$text": "C3L",
+              "@code": "c"
+            },
+            {
+              "$text": "COO",
+              "@code": "d"
+            },
+            {
+              "$text": "OCLCO",
+              "@code": "d"
+            },
+            {
+              "$text": "OCLCF",
+              "@code": "d"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "040",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": 9789897553790,
+            "@code": "a"
+          },
+          "@tag": "020",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": 9897553797,
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "020"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)1086298000",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "035",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "e-ur---",
+              "@code": "a"
+            },
+            {
+              "$text": "e-po---",
+              "@code": "a"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "043",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 322,
+              "@code": "a"
+            },
+            {
+              "$text": 14,
+              "@code": "2"
+            }
+          ],
+          "@ind1": "1",
+          "@ind2": "4",
+          "@tag": "082"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Entre outubro e abril :",
+              "@code": "a"
+            },
+            {
+              "$text": "estudos sobre trabalho, revoluções e movimentos sociais no século XX /",
+              "@code": "b"
+            },
+            {
+              "$text": "coordenação, Jorge Fontes [and three others].",
+              "@code": "c"
+            }
+          ],
+          "@ind1": "0",
+          "@ind2": "0",
+          "@tag": "245"
+        },
+        {
+          "marc:subfield": {
+            "$text": "1a edição.",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "250",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Ribeirão - V.N. Famalicão :",
+              "@code": "a"
+            },
+            {
+              "$text": "Húmus,",
+              "@code": "b"
+            },
+            {
+              "$text": "novembro de 2018.",
+              "@code": "c"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "1",
+          "@tag": "264"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "222 pages ;",
+              "@code": "a"
+            },
+            {
+              "$text": "23 cm.",
+              "@code": "c"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "300",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "Collected essays.",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "500",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "Includes bibliographical references.",
+            "@code": "a"
+          },
+          "@tag": "504",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Revolutions and socialism",
+              "@code": "a"
+            },
+            {
+              "$text": "Soviet Union.",
+              "@code": "z"
+            }
+          ],
+          "@tag": "650",
+          "@ind2": "0",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Revolutions and socialism",
+              "@code": "a"
+            },
+            {
+              "$text": "Portugal.",
+              "@code": "z"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "0",
+          "@tag": "650"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Labor movement",
+              "@code": "a"
+            },
+            {
+              "$text": "Soviet Union.",
+              "@code": "z"
+            }
+          ],
+          "@tag": "650",
+          "@ind2": "0",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Labor movement",
+              "@code": "a"
+            },
+            {
+              "$text": "Portugal.",
+              "@code": "z"
+            }
+          ],
+          "@tag": "650",
+          "@ind2": "0",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Soviet Union",
+              "@code": "a"
+            },
+            {
+              "$text": "History",
+              "@code": "x"
+            },
+            {
+              "$text": "Revolution, 1917-1921.",
+              "@code": "y"
+            }
+          ],
+          "@ind2": "0",
+          "@tag": "651",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Portugal",
+              "@code": "a"
+            },
+            {
+              "$text": "History",
+              "@code": "x"
+            },
+            {
+              "$text": "Revolution, 1974.",
+              "@code": "y"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "651",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Revolution (Portugal : 1974)",
+              "@code": "a"
+            },
+            {
+              "$text": "fast",
+              "@code": "2"
+            }
+          ],
+          "@ind2": "7",
+          "@tag": "611",
+          "@ind1": "2"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Revolution (Soviet Union : 1917-1921)",
+              "@code": "a"
+            },
+            {
+              "$text": "fast",
+              "@code": "2"
+            }
+          ],
+          "@ind1": "2",
+          "@ind2": "7",
+          "@tag": "611"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Labor movement.",
+              "@code": "a"
+            },
+            {
+              "$text": "fast",
+              "@code": "2"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "650",
+          "@ind2": "7"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Revolutions and socialism.",
+              "@code": "a"
+            },
+            {
+              "$text": "fast",
+              "@code": "2"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "7",
+          "@tag": "650"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Portugal.",
+              "@code": "a"
+            },
+            {
+              "$text": "fast",
+              "@code": "2"
+            }
+          ],
+          "@ind2": "7",
+          "@tag": "651",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Soviet Union.",
+              "@code": "a"
+            },
+            {
+              "$text": "fast",
+              "@code": "2"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "651",
+          "@ind2": "7"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1917-1974",
+              "@code": "a"
+            },
+            {
+              "$text": "fast",
+              "@code": "2"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "648",
+          "@ind2": "7"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Fontes, Jorge Filipe Figueiredo,",
+              "@code": "a"
+            },
+            {
+              "$text": "editor.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)2034911",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "1",
+          "@tag": "700",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Pelz, William A.,",
+              "@code": "a"
+            },
+            {
+              "$text": "honoree.",
+              "@code": "e"
+            }
+          ],
+          "@tag": "700",
+          "@ind2": "",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/F4DA0100-8A66-4489-95C3-A5780A030CEA",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "902"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "1984/4615",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": 8.74259028549286e+21,
+              "@code": "p"
+            }
+          ],
+          "@ind1": "4",
+          "@tag": "852",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1524119,
+              "@code": "a"
+            },
+            {
+              "@code": "b"
+            },
+            {
+              "$text": 1524119,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "901",
+          "@ind2": ""
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  },
+  "_identifier": [
+    "oai",
+    "socialhistoryservices.org",
+    "1524119"
+  ],
+  "_item": {
+    "termType": "NamedNode",
+    "value": "https://iisg.amsterdam/id/item/1524119"
+  }
+}

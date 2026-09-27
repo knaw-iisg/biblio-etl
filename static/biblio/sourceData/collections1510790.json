@@ -1,0 +1,506 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:1510790",
+    "datestamp": "2022-11-18T17:07:39.237Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "nondig",
+      "4": "nondig.books_and_brochures"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "01853cam a22005297c 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 1510790,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20170801135327,
+          "@tag": "005"
+        },
+        {
+          "$text": "160714s2017    gw            000 0 ger",
+          "@tag": "008"
+        },
+        {
+          "$text": "tu",
+          "@tag": "007"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)1039313322",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "035"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "GWDNB",
+              "@code": "a"
+            },
+            {
+              "$text": "ger",
+              "@code": "b"
+            },
+            {
+              "$text": "GWDNB",
+              "@code": "c"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "040"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "16,N29",
+              "@code": "a"
+            },
+            {
+              "$text": "dnb",
+              "@code": "2"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "015"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "110639982X",
+              "@code": "a"
+            },
+            {
+              "$text": "DE-101",
+              "@code": "2"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "7",
+          "@tag": "016"
+        },
+        {
+          "marc:subfield": {
+            "$text": 9783899657326,
+            "@code": "a"
+          },
+          "@tag": "020",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": 3899657322,
+            "@code": "a"
+          },
+          "@tag": "020",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": 9783899657326,
+            "@code": "a"
+          },
+          "@ind1": "3",
+          "@ind2": "",
+          "@tag": "024"
+        },
+        {
+          "marc:subfield": {
+            "$text": "XA-DE-HH",
+            "@code": "c"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "044"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1\\p",
+              "@code": "8"
+            },
+            {
+              "$text": 300,
+              "@code": "a"
+            },
+            {
+              "$text": "DE-101",
+              "@code": "q"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "082"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 300,
+              "@code": "a"
+            },
+            {
+              "$text": "DE-101",
+              "@code": "q"
+            },
+            {
+              "$text": "sdnb",
+              "@code": "2"
+            }
+          ],
+          "@tag": "084",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Krätke, Michael",
+              "@code": "a"
+            },
+            {
+              "$text": "1949-",
+              "@code": "d"
+            },
+            {
+              "$text": "(NL-AMISG)192600",
+              "@code": "0"
+            }
+          ],
+          "@tag": "100",
+          "@ind2": "",
+          "@ind1": "1"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Kritik der Politischen Ökonomie heute :",
+              "@code": "a"
+            },
+            {
+              "$text": "Zeitgenosse Marx /",
+              "@code": "b"
+            },
+            {
+              "$text": "Michael R. Krätke.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "245",
+          "@ind1": "1",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": {
+            "$text": "1. Auflage",
+            "@code": "a"
+          },
+          "@tag": "250",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": 201609,
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "263"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Hamburg :",
+              "@code": "a"
+            },
+            {
+              "$text": "VSA,",
+              "@code": "b"
+            },
+            {
+              "$text": "2017.",
+              "@code": "c"
+            }
+          ],
+          "@ind2": "1",
+          "@ind1": "",
+          "@tag": "264"
+        },
+        {
+          "marc:subfield": {
+            "$text": "243 Seiten.",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "300"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Text",
+              "@code": "a"
+            },
+            {
+              "$text": "txt",
+              "@code": "b"
+            },
+            {
+              "$text": "rdacontent",
+              "@code": "2"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "336"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "ohne Hilfsmittel zu benutzen",
+              "@code": "a"
+            },
+            {
+              "$text": "n",
+              "@code": "b"
+            },
+            {
+              "$text": "rdamedia",
+              "@code": "2"
+            }
+          ],
+          "@tag": "337",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Band",
+              "@code": "a"
+            },
+            {
+              "$text": "nc",
+              "@code": "b"
+            },
+            {
+              "$text": "rdacarrier",
+              "@code": "2"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "338"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(Produktform)Paperback / softback",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "653"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(Zielgruppe)Fachpublikum/ Wissenschaft",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "653"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(Zielgruppe)Erwachsenenbildung",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "653"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(Zielgruppe)Fachhochschul-/Hochschulausbildung",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "653"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Das Kapital",
+            "@code": "a"
+          },
+          "@tag": "653",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "Kapitalismusanalyse",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "653"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Karl Marx",
+            "@code": "a"
+          },
+          "@tag": "653",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "Marxismus",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "653"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Politische Ökonomie",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "653"
+        },
+        {
+          "marc:subfield": {
+            "$text": "(VLB-WN)1970: Hardcover, Softcover / Sachbücher/Politik, Gesellschaft, Wirtschaft",
+            "@code": "a"
+          },
+          "@tag": "653",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "(NL-AMISG)54568545",
+              "@code": "0"
+            },
+            {
+              "$text": "(NL-AMISG)//d-nb.info/gnd/1054568545",
+              "@code": "0"
+            },
+            {
+              "$text": "(NL-AMISG)54568545",
+              "@code": "0"
+            },
+            {
+              "$text": "VSA-Verlag für das Studium der Arbeiterbewegung",
+              "@code": "a"
+            },
+            {
+              "$text": "pbl",
+              "@code": "4"
+            }
+          ],
+          "@tag": "710",
+          "@ind2": "",
+          "@ind1": "2"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/CB7B9256-76C0-11E7-833A-30DFE269D140",
+            "@code": "a"
+          },
+          "@tag": "902",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "1983/3287",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "72634763298473985445",
+              "@code": "p"
+            }
+          ],
+          "@tag": "852",
+          "@ind2": "",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1510790,
+              "@code": "a"
+            },
+            {
+              "@code": "b"
+            },
+            {
+              "$text": 1510790,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@tag": "901",
+          "@ind1": "",
+          "@ind2": ""
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  },
+  "_identifier": [
+    "oai",
+    "socialhistoryservices.org",
+    "1510790"
+  ]
+}
+

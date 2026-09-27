@@ -1,0 +1,443 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:1008269",
+    "datestamp": "2022-03-08T12:55:08.933Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "nondig",
+      "4": "nondig.books_and_brochures"
+    },
+    "fromCache": true
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "00823nam a22002297a 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 1008269,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 20080610113122,
+          "@tag": "005"
+        },
+        {
+          "$text": "200806suuuuuuuuxxk                 eng d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": 862101646,
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "020",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb10776836",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "035",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)20757683",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "035",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@tag": "040",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "xxk",
+              "@code": "a"
+            },
+            {
+              "$text": "ara",
+              "@code": "a"
+            },
+            {
+              "$text": "fr",
+              "@code": "a"
+            },
+            {
+              "$text": "sp",
+              "@code": "a"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "044"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "When the state kills ... :",
+              "@code": "a"
+            },
+            {
+              "$text": "the death penalty v. human rights /",
+              "@code": "b"
+            },
+            {
+              "$text": "Amnesty International.",
+              "@code": "c"
+            }
+          ],
+          "@ind1": "1",
+          "@tag": "245",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "London :",
+              "@code": "a"
+            },
+            {
+              "$text": "Amnesty International Publ.,",
+              "@code": "b"
+            },
+            {
+              "$text": "1989.",
+              "@code": "c"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "260"
+        },
+        {
+          "marc:subfield": {
+            "$text": "268 p.",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "300"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Call nr. 2008/3046 = Arabic edition.",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "500",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "Call nr. 2008/3047 = French edition.",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "500",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "Call nr. 2008/3048 = Spanish edition.",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "500",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Amnesty Int. IS",
+              "@code": "a"
+            },
+            {
+              "$text": "2008/3046",
+              "@code": "b"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "694",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Amnesty Int. IS",
+              "@code": "a"
+            },
+            {
+              "$text": "2008/3047",
+              "@code": "b"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "694",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Amnesty Int. IS",
+              "@code": "a"
+            },
+            {
+              "$text": "2008/3048",
+              "@code": "b"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "694"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Amnesty International.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)7192",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "2",
+          "@tag": "710",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Amnesty International.",
+              "@code": "a"
+            },
+            {
+              "$text": "International Secretariat,",
+              "@code": "b"
+            },
+            {
+              "$text": "collector.",
+              "@code": "e"
+            },
+            {
+              "$text": "(NL-AMISG)573727",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "710",
+          "@ind1": "2"
+        },
+        {
+          "marc:subfield": {
+            "$text": "La peine de mort dans le monde : quand l'etat assassine.",
+            "@code": "a"
+          },
+          "@tag": "740",
+          "@ind2": "",
+          "@ind1": "3"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Cuando es el estado el que mata ... : los derechos humanos frente a la pena de muerte.",
+            "@code": "a"
+          },
+          "@ind1": "0",
+          "@ind2": "",
+          "@tag": "740"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/FCA9756B-228E-4020-8C4C-41970FECB45E",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "902",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "2008/3047",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N10762048",
+              "@code": "p"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "852",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "2008/3048",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N10762049",
+              "@code": "p"
+            }
+          ],
+          "@tag": "852",
+          "@ind2": "",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "2008/3046",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N10762047",
+              "@code": "p"
+            }
+          ],
+          "@tag": "852",
+          "@ind2": "",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "1997/5459",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N10567027",
+              "@code": "p"
+            }
+          ],
+          "@ind1": "4",
+          "@tag": "852",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 1008269,
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": 1008269,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind2": "",
+          "@tag": "901",
+          "@ind1": ""
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  },
+  "_identifier": [
+    "oai",
+    "socialhistoryservices.org",
+    "1008269"
+  ],
+  "_item": {
+    "termType": "NamedNode",
+    "value": "https://iisg.amsterdam/id/item/1008269"
+  }
+}

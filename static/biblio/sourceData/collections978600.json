@@ -1,0 +1,223 @@
+{
+  "header": {
+    "identifier": "oai:socialhistoryservices.org:978600",
+    "datestamp": "2022-03-08T12:53:41.775Z",
+    "setSpec": {
+      "0": "iish",
+      "1": "iish.evergreen",
+      "2": "iish.evergreen.biblio",
+      "3": "nondig",
+      "4": "nondig.books_and_brochures"
+    },
+    "fromCache": false
+  },
+  "metadata": {
+    "marc:record": {
+      "marc:leader": {
+        "$text": "00509nam a22001577a 4500"
+      },
+      "marc:controlfield": [
+        {
+          "$text": 978600,
+          "@tag": "001"
+        },
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": 19950210234845,
+          "@tag": "005"
+        },
+        {
+          "$text": "199502suuuuuuuuxx                  tur d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb10691325",
+            "@code": "a"
+          },
+          "@tag": "035",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "(OCoLC)81515467",
+            "@code": "a"
+          },
+          "@tag": "035",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@tag": "040",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Sanayi ve üniversite :",
+              "@code": "a"
+            },
+            {
+              "$text": "haberleşme ve işbirliğinin yeni şekilleri /",
+              "@code": "b"
+            },
+            {
+              "$text": "DPT Sosyal Planlama Başkanliği.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "245",
+          "@ind1": "1",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Ankara :",
+              "@code": "a"
+            },
+            {
+              "$text": "DPT,",
+              "@code": "b"
+            },
+            {
+              "$text": "1989.",
+              "@code": "c"
+            }
+          ],
+          "@tag": "260",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "73 p.",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "300"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Az 30",
+              "@code": "a"
+            },
+            {
+              "$text": "Asia; Middle East; Turkey",
+              "@code": "b"
+            },
+            {
+              "$text": "Azië; Nabije Oosten; Turkije.",
+              "@code": "c"
+            }
+          ],
+          "@ind2": "",
+          "@ind1": "",
+          "@tag": "690"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Türkiye Cumhuriyeti.",
+              "@code": "a"
+            },
+            {
+              "$text": "Başbakanlik.",
+              "@code": "b"
+            },
+            {
+              "$text": "Devlet Plânlama Teşkilâti.",
+              "@code": "b"
+            },
+            {
+              "$text": "(NL-AMISG)16840",
+              "@code": "0"
+            }
+          ],
+          "@tag": "710",
+          "@ind2": "",
+          "@ind1": "2"
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/615E1D29-8D79-4B1D-AF85-56814F99937B",
+            "@code": "a"
+          },
+          "@tag": "902",
+          "@ind1": "",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "IISG",
+              "@code": "c"
+            },
+            {
+              "$text": "1994/7308",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N10521256",
+              "@code": "p"
+            }
+          ],
+          "@tag": "852",
+          "@ind2": "",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": 978600,
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": 978600,
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "901"
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    }
+  }
+}
