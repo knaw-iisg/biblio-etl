@@ -1,248 +1,247 @@
-"$recordId": 1,
-"$environment": "Development",
-"header": {
+{
+  "$recordId": 1,
+  "$environment": "Development",
+  "header": {
     "identifier": "oai:socialhistoryservices.org:1135739",
     "datestamp": "2023-04-06T12:27:16.449Z",
     "setSpec": [
-        "iish",
-        "iish.evergreen",
-        "iish.evergreen.biblio"
+      "iish",
+      "iish.evergreen",
+      "iish.evergreen.biblio"
     ],
     "fromCache": false
-},
-"metadata": {
+  },
+  "metadata": {
     "marc:record": {
-        "marc:leader": {
-            "$text": "00436nkm a22001697a 4500"
+      "marc:leader": "00436nkm a22001697a 4500",
+      "marc:controlfield": [
+        {
+          "$text": "1135739",
+          "@tag": "001"
         },
-        "marc:controlfield": [
+        {
+          "$text": "NL-AMISG",
+          "@tag": "003"
+        },
+        {
+          "$text": "20050510111552.0",
+          "@tag": "005"
+        },
+        {
+          "$text": "200505suuuuuuuuxx                  und d",
+          "@tag": "008"
+        }
+      ],
+      "marc:datafield": [
+        {
+          "marc:subfield": {
+            "$text": "(IISG)IISGb1094028080",
+            "@code": "a"
+          },
+          "@tag": "035",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "NL-AmISG",
+            "@code": "a"
+          },
+          "@ind1": "",
+          "@tag": "040",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
             {
-                "$text": "1135739",
-                "@tag": "001"
+              "$text": "Tegenvuur film over anti-militarisme.",
+              "@code": "a"
             },
             {
-                "$text": "NL-AMISG",
-                "@tag": "003"
-            },
-            {
-                "$text": "20050510111552.0",
-                "@tag": "005"
-            },
-            {
-                "$text": "200505suuuuuuuuxx                  und d",
-                "@tag": "008"
+              "$text": "Visual document.",
+              "@code": "k"
             }
-        ],
-        "marc:datafield": [
+          ],
+          "@ind1": "1",
+          "@tag": "245",
+          "@ind2": "0"
+        },
+        {
+          "marc:subfield": {
+            "$text": "Aankondigingen film en video voorstellingen.",
+            "@code": "a"
+          },
+          "@ind2": "",
+          "@tag": "500",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "pictoright",
+            "@code": "m"
+          },
+          "@ind1": "",
+          "@tag": "542",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": [
             {
-                "marc:subfield": {
-                    "$text": "(IISG)IISGb1094028080",
-                    "@code": "a"
-                },
-                "@tag": "035",
-                "@ind2": "",
-                "@ind1": ""
+              "$text": "1950-1974.",
+              "@code": "a"
             },
             {
-                "marc:subfield": {
-                    "$text": "NL-AmISG",
-                    "@code": "a"
-                },
-                "@ind1": "",
-                "@tag": "040",
-                "@ind2": ""
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "Tegenvuur film over anti-militarisme.",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "Visual document.",
-                        "@code": "k"
-                    }
-                ],
-                "@ind1": "1",
-                "@tag": "245",
-                "@ind2": "0"
-            },
-            {
-                "marc:subfield": {
-                    "$text": "Aankondigingen film en video voorstellingen.",
-                    "@code": "a"
-                },
-                "@ind2": "",
-                "@tag": "500",
-                "@ind1": ""
-            },
-            {
-                "marc:subfield": {
-                    "$text": "pictoright",
-                    "@code": "m"
-                },
-                "@ind1": "",
-                "@tag": "542",
-                "@ind2": ""
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "1950-1974.",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "(NL-AMISG)364548",
-                        "@code": "0"
-                    }
-                ],
-                "@ind1": "",
-                "@ind2": "4",
-                "@tag": "648"
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "1975-1999.",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "(NL-AMISG)366946",
-                        "@code": "0"
-                    }
-                ],
-                "@ind1": "",
-                "@ind2": "4",
-                "@tag": "648"
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "Film industry.",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "(NL-AMISG)83052",
-                        "@code": "0"
-                    }
-                ],
-                "@ind2": "4",
-                "@tag": "650",
-                "@ind1": ""
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "Netherlands.",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "(NL-AMISG)569282",
-                        "@code": "0"
-                    }
-                ],
-                "@tag": "651",
-                "@ind2": "4",
-                "@ind1": ""
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "Poster.",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "(NL-AMISG)3248",
-                        "@code": "0"
-                    }
-                ],
-                "@ind1": "",
-                "@ind2": "4",
-                "@tag": "655"
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "NED",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "Nederland",
-                        "@code": "e"
-                    }
-                ],
-                "@ind1": "",
-                "@tag": "695",
-                "@ind2": ""
-            },
-            {
-                "marc:subfield": {
-                    "$text": "10622/5D67C689-CC28-4DFE-9CA8-3B2564ABA0B9",
-                    "@code": "a"
-                },
-                "@tag": "902",
-                "@ind2": "",
-                "@ind1": ""
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "IISG",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "IISG",
-                        "@code": "b"
-                    },
-                    {
-                        "$text": "CSD",
-                        "@code": "c"
-                    },
-                    {
-                        "$text": "BG D64/674",
-                        "@code": "j"
-                    },
-                    {
-                        "$text": "Available",
-                        "@code": "n"
-                    },
-                    {
-                        "$text": "N30051002085998",
-                        "@code": "p"
-                    }
-                ],
-                "@tag": "852",
-                "@ind2": "",
-                "@ind1": "4"
-            },
-            {
-                "marc:subfield": [
-                    {
-                        "$text": "1135739",
-                        "@code": "a"
-                    },
-                    {
-                        "$text": "Unknown",
-                        "@code": "b"
-                    },
-                    {
-                        "$text": "1135739",
-                        "@code": "c"
-                    },
-                    {
-                        "$text": "biblio",
-                        "@code": "t"
-                    }
-                ],
-                "@ind1": "",
-                "@ind2": "",
-                "@tag": "901"
+              "$text": "(NL-AMISG)364548",
+              "@code": "0"
             }
-        ],
-        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
-        "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "648"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1975-1999.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)366946",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "648"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Film industry.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)83052",
+              "@code": "0"
+            }
+          ],
+          "@ind2": "4",
+          "@tag": "650",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Netherlands.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)569282",
+              "@code": "0"
+            }
+          ],
+          "@tag": "651",
+          "@ind2": "4",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "Poster.",
+              "@code": "a"
+            },
+            {
+              "$text": "(NL-AMISG)3248",
+              "@code": "0"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "4",
+          "@tag": "655"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "NED",
+              "@code": "a"
+            },
+            {
+              "$text": "Nederland",
+              "@code": "e"
+            }
+          ],
+          "@ind1": "",
+          "@tag": "695",
+          "@ind2": ""
+        },
+        {
+          "marc:subfield": {
+            "$text": "10622/5D67C689-CC28-4DFE-9CA8-3B2564ABA0B9",
+            "@code": "a"
+          },
+          "@tag": "902",
+          "@ind2": "",
+          "@ind1": ""
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "IISG",
+              "@code": "a"
+            },
+            {
+              "$text": "IISG",
+              "@code": "b"
+            },
+            {
+              "$text": "CSD",
+              "@code": "c"
+            },
+            {
+              "$text": "BG D64/674",
+              "@code": "j"
+            },
+            {
+              "$text": "Available",
+              "@code": "n"
+            },
+            {
+              "$text": "N30051002085998",
+              "@code": "p"
+            }
+          ],
+          "@tag": "852",
+          "@ind2": "",
+          "@ind1": "4"
+        },
+        {
+          "marc:subfield": [
+            {
+              "$text": "1135739",
+              "@code": "a"
+            },
+            {
+              "$text": "Unknown",
+              "@code": "b"
+            },
+            {
+              "$text": "1135739",
+              "@code": "c"
+            },
+            {
+              "$text": "biblio",
+              "@code": "t"
+            }
+          ],
+          "@ind1": "",
+          "@ind2": "",
+          "@tag": "901"
+        }
+      ],
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xmlns:marc": "http://www.loc.gov/MARC21/slim",
+      "@xsi:schemaLocation": "http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
     }
-},
-"_identifier": "1135739"
+  },
+  "_identifier": "1135739"
 }

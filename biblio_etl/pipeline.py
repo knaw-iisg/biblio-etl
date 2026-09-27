@@ -5,7 +5,7 @@ from __future__ import annotations
 from rdflib import RDF, Graph, URIRef
 
 from . import nde_ap
-from .context import as_array
+from .context import as_array, text_content
 from .datafields import DATAFIELD_HANDLERS, f008
 from .leader import type_from_leader
 from .prefixes import ITEM
@@ -38,19 +38,18 @@ def process_record(record: dict, g: Graph) -> URIRef | None:
 
     marc_record = record.get("metadata", {}).get("marc:record", {})
 
-    leader = marc_record.get("marc:leader", {})
-    leader_text = leader.get("$text") if isinstance(leader, dict) else None
+    leader_text = text_content(marc_record.get("marc:leader"))
     if leader_text:
-        rdf_type = type_from_leader(str(leader_text))
+        rdf_type = type_from_leader(leader_text)
         if rdf_type is not None:
             g.add((item, RDF.type, rdf_type))
 
     lang: str | None = None
     for controlfield in as_array(marc_record.get("marc:controlfield")):
         if controlfield.get("@tag") == "008":
-            text_008 = controlfield.get("$text")
+            text_008 = text_content(controlfield)
             if text_008:
-                lang = f008.process(item, str(text_008), g)
+                lang = f008.process(item, text_008, g)
 
     for datafield in as_array(marc_record.get("marc:datafield")):
         tag = datafield.get("@tag")

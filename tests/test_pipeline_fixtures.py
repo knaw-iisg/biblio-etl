@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 import pytest
-from rdflib import Graph, URIRef
+from rdflib import RDF, Graph, URIRef
 from rdflib.namespace import Namespace
 
 from biblio_etl.fixtures import load_fixture
@@ -35,6 +35,16 @@ def test_item_978600_known_fields():
     item = process_record(record, g)
 
     assert item == URIRef("https://iisg.amsterdam/id/item/978600")
+
+    # Regression test: the item's own rdf:type (from the MARC leader) was
+    # silently dropped for every record in a full 1.2M-record harvest --
+    # marc:leader has no XML attributes, so it collapses to a plain string
+    # via xmltodict rather than {"$text": ...}, and the pipeline's leader
+    # extraction only handled the dict shape. The static fixtures (inherited
+    # pre-converted, not produced by this repo's own harvest.py) always used
+    # the dict shape too, so no existing test caught this. See context.py's
+    # text_content() and test_context.py's dedicated regression tests.
+    assert (item, RDF.type, SDO.Book) in g
 
     names = {str(o) for o in g.objects(item, SDO.name)}
     assert any("Sanayi ve üniversite" in n for n in names)

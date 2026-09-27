@@ -16,9 +16,7 @@
   },
   "metadata": {
     "marc:record": {
-      "marc:leader": {
-        "$text": "00689nkm a22002177a 4500"
-      },
+      "marc:leader": "00689nkm a22002177a 4500",
       "marc:controlfield": [
         {
           "$text": 1075345,

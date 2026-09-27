@@ -45,6 +45,26 @@ def find_subfields(subfields: list[dict], code: str) -> list[dict]:
     return [s for s in subfields if get_code(s) == code]
 
 
+def text_content(value) -> str | None:
+    """Get an XML element's text content from either xmltodict shape: a
+    dict with ``"$text"`` (when the element has attributes) or a plain
+    string (when it has none). MARC's ``<leader>`` element never carries
+    attributes, so it collapses to a bare string rather than
+    ``{"$text": ...}`` -- unlike controlfield/datafield/subfield, which
+    always have `@tag`/`@code` and so are always dicts. Confirmed the hard
+    way: the repo's own static fixtures (inherited pre-converted, not
+    produced by this repo's own harvest.py) always used the dict shape,
+    which silently hid this for every leader-derived triple until checked
+    against real harvest.py output.
+    """
+    if isinstance(value, dict):
+        text = value.get("$text")
+        return str(text) if text is not None else None
+    if isinstance(value, str):
+        return value
+    return None
+
+
 def strip_parens(text: str) -> str:
     """Strip bracketed authority-source markers such as ``(NL-AMISG)`` from
     an identifier, e.g. ``(NL-AMISG)176035`` -> ``176035``."""

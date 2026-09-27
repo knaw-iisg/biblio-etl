@@ -13,9 +13,7 @@
   },
   "metadata": {
     "marc:record": {
-      "marc:leader": {
-        "$text": "00823nam a22002297a 4500"
-      },
+      "marc:leader": "00823nam a22002297a 4500",
       "marc:controlfield": [
         {
           "$text": 1008269,

@@ -13,9 +13,7 @@
   },
   "metadata": {
     "marc:record": {
-      "marc:leader": {
-        "$text": "01757cam a22004577i 4500"
-      },
+      "marc:leader": "01757cam a22004577i 4500",
       "marc:controlfield": [
         {
           "$text": 1524119,

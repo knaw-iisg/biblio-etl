@@ -14,9 +14,7 @@
   },
   "metadata": {
     "marc:record": {
-      "marc:leader": {
-        "$text": "00620nkm a22     7i 4500"
-      },
+      "marc:leader": "00620nkm a22     7i 4500",
       "marc:controlfield": [
         {
           "$text": 1482763,
