@@ -22,7 +22,7 @@ IISGV = Namespace(BASE + "vocab/")
 MARC = Namespace(BASE + "marc/")
 
 # External vocabularies
-SDO = Namespace("http://schema.org/")
+SDO = Namespace("https://schema.org/")
 RELATOR = Namespace("http://id.loc.gov/vocabulary/relators/")
 IISG_REL = Namespace("https://iisg.amsterdam/relators/")
 OCLC = Namespace("http://www.worldcat.org/oclc/")

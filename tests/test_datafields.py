@@ -8,7 +8,7 @@ from rdflib.namespace import Namespace
 
 from biblio_etl.datafields import f035, f044, f100, f245, f260, f902
 
-SDO = Namespace("http://schema.org/")
+SDO = Namespace("https://schema.org/")
 IISGV = Namespace("https://iisg.amsterdam/vocab/")
 OWL = Namespace("http://www.w3.org/2002/07/owl#")
 PERSON = Namespace("https://iisg.amsterdam/authority/person/")

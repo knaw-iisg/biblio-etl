@@ -12,7 +12,7 @@ from biblio_etl.fixtures import load_fixture
 from biblio_etl.pipeline import process_record
 
 FIXTURES_DIR = Path(__file__).resolve().parent.parent / "static" / "biblio" / "sourceData"
-SDO = Namespace("http://schema.org/")
+SDO = Namespace("https://schema.org/")
 IISGV = Namespace("https://iisg.amsterdam/vocab/")
 
 

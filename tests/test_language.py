@@ -7,7 +7,7 @@ from rdflib.namespace import Namespace
 
 from biblio_etl.language import language_code_from_008, process
 
-SDO = Namespace("http://schema.org/")
+SDO = Namespace("https://schema.org/")
 ITEM = URIRef("https://iisg.amsterdam/id/item/1")
 
 
