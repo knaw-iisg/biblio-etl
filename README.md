@@ -12,6 +12,15 @@ left as a `TODO(IISG)`, namely the dataset's NDE Dataset Register
 registration -- license, catalog and access-rights IRIs aren't derivable
 from this codebase).
 
+## Public instance
+
+This pipeline's output is merged with six others into a single public
+knowledge graph, browsable at **https://kb.zijdeman.nl** and queryable
+directly at **https://sparql.zijdeman.nl** (or via QLever's own query UI
+at **https://kg.zijdeman.nl**) -- see
+[iisg-kb-viewer](https://github.com/knaw-iisg/iisg-kb-viewer) and
+[triplestore](https://github.com/knaw-iisg/triplestore).
+
 ## Install
 
 ```bash
