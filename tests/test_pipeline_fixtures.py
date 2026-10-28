@@ -76,3 +76,13 @@ def test_nde_ap_dataset_link_and_sd_date_published():
 
     assert (item, SDO.isPartOf, URIRef("https://iisg.amsterdam/id/dataset/biblio")) in g
     assert list(g.objects(item, SDO.sdDatePublished))
+
+
+def test_item_978601_digitised_poster():
+    record = load_fixture(FIXTURES_DIR / "collections978601.json")
+    g = Graph()
+    item = process_record(record, g)
+    assert (item, SDO.contentUrl, URIRef(
+        "https://access.iisg.amsterdam/universalviewer/#?manifest="
+        "https://hdl.handle.net/10622/N30051000846235?locatt=view:manifest")) in g
+    assert (item, IISGV.accessLevel, URIRef("https://iisg.amsterdam/vocab/accessLevel/pictoright")) in g

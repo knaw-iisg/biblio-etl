@@ -6,7 +6,7 @@ from __future__ import annotations
 from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import Namespace
 
-from biblio_etl.datafields import f035, f044, f100, f245, f260, f902
+from biblio_etl.datafields import f035, f044, f100, f245, f260, f542, f856, f902
 
 SDO = Namespace("https://schema.org/")
 IISGV = Namespace("https://iisg.amsterdam/vocab/")
@@ -95,3 +95,27 @@ def test_f902_handle_url():
     values = list(g.objects(ITEM, IISGV.nativeViewer))
     assert len(values) == 1
     assert str(values[0]) == "http://hdl.handle.net/10622/615E1D29-8D79-4B1D-AF85-56814F99937B"
+
+
+def test_f856_iiif_viewer_link():
+    g = Graph()
+    datafield = {"@ind1": "4", "@ind2": "0", "marc:subfield": {
+        "@code": "u", "$text": "https://hdl.handle.net/10622/N30051001508412"}}
+    f856.process(ITEM, datafield, g)
+    assert list(g.objects(ITEM, SDO.contentUrl)) == [URIRef(
+        "https://access.iisg.amsterdam/universalviewer/#?manifest="
+        "https://hdl.handle.net/10622/N30051001508412?locatt=view:manifest")]
+
+
+def test_f856_ignores_non_iisg_urls():
+    g = Graph()
+    datafield = {"marc:subfield": {"@code": "u", "$text": "https://example.org/ebook.pdf"}}
+    f856.process(ITEM, datafield, g)
+    assert len(g) == 0
+
+
+def test_f542_access_level():
+    g = Graph()
+    datafield = {"marc:subfield": {"@code": "m", "$text": "pictoright"}}
+    f542.process(ITEM, datafield, g)
+    assert (ITEM, IISGV.accessLevel, URIRef("https://iisg.amsterdam/vocab/accessLevel/pictoright")) in g

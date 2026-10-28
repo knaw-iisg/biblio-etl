@@ -19,6 +19,8 @@ FORM = Namespace(AUTHORITY + "form/")
 TITLE = Namespace(AUTHORITY + "title/")
 
 IISGV = Namespace(BASE + "vocab/")
+# Values of iisgv:accessLevel (MARC 542 $m); shared with iisg-iiif.
+ACCESS_LEVEL = Namespace(BASE + "vocab/accessLevel/")
 MARC = Namespace(BASE + "marc/")
 
 # External vocabularies
@@ -48,6 +50,7 @@ NAMESPACE_BINDINGS = {
     "form": FORM,
     "title": TITLE,
     "iisgv": IISGV,
+    "accessLevel": ACCESS_LEVEL,
     "marc": MARC,
     "sdo": SDO,
     "relator": RELATOR,

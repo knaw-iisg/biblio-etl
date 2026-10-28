@@ -19,6 +19,7 @@ from . import (
     f260,
     f300,
     f500,
+    f542,
     f600,
     f600_2,
     f610,
@@ -32,6 +33,7 @@ from . import (
     f710,
     f711,
     f830,
+    f856,
     f902,
 )
 
@@ -50,6 +52,7 @@ DATAFIELD_HANDLERS = {
     "260": [f260.process],
     "300": [f300.process],
     "500": [f500.process],
+    "542": [f542.process],
     "600": [f600.process, f600_2.process],
     "610": [f610.process],
     "611": [f611.process],
@@ -61,5 +64,6 @@ DATAFIELD_HANDLERS = {
     "710": [f710.process],
     "711": [f711.process],
     "830": [f830.process],
+    "856": [f856.process],
     "902": [f902.process],
 }
